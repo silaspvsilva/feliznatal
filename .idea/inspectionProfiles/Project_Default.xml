@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="scopesOrder">
+      <list>
+        <option value="Open Files" />
+        <option value="Project Files" />
+        <option value="Scratches and Consoles" />
+      </list>
+    </option>
+    <inspection_tool class="CucumberExamplesColon" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="CucumberMissedExamples" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="CucumberPlusUndefinedStep" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="CucumberTableInspection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="CucumberUndefinedStep" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="GherkinBrokenTableInspection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="GherkinMisplacedBackground" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="GherkinScenarioToScenarioOutline" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="PyByteLiteralInspection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="PyDeprecationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="TESTE.selenium" />
+          <option value="pages.header_page" />
+          <option value="pythonProject.steps.busca_steps.pages" />
+          <option value="pythonProject.steps.busca_steps.utils" />
+          <option value="pythonProject.pages.header_page.browser" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
